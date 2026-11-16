@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Swaggolord Restaurant</title>
+  <link rel="stylesheet" href="style-2.css">
+</head>
+<body id="top">
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="index.html">swaggo<span>lord</span><small> RESTAURANT</small></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a class="nav-order" href="menu.html">Explore menu</a>
+  </nav>
+</header>
+<main>
+  <section class="inner-hero"><div class="container"><p class="breadcrumb">HOME / CONTACT</p><h1>Get in touch.</h1><p>Questions, feedback or just want to say hello? Send Swaggolord a message.</p></div></section>
+  <section class="section-space">
+    <div class="container contact-page-grid">
+      <div class="contact-copy">
+        <p class="eyebrow dark-eyebrow">CONTACT SWAGGOLORD</p>
+        <h2>Let's talk<br><span>food.</span></h2>
+        <p>We'd be happy to hear from you. Use the contact form and make sure your details are correct before submitting.</p>
+        <div class="contact-detail"><span class="detail-icon">☎</span><div><strong>Phone</strong><a href="tel:+2348108868248">+2348108868248</a></div></div>
+        <div class="contact-detail"><span class="detail-icon">✉</span><div><strong>Email</strong><a href="mailto:ebukaonyema765@gmail.com">ebukaonyema765@gmail.com</a></div></div>
+        <div class="contact-detail"><span class="detail-icon">⌖</span><div><strong>Location</strong><span>22, Bola PSD on Wayrewd Street Lagos Nigeria.</span></div></div>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <h3>Send us a message</h3>
+        <p class="required-note">All fields are required.</p>
+        <label for="fullName">Full name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" autocomplete="name">
+        <small class="error-message" id="nameError"></small>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+        <small class="error-message" id="emailError"></small>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What is this about?">
+        <small class="error-message" id="subjectError"></small>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+        <small class="error-message" id="messageError"></small>
+
+        <button class="button button-primary submit-button" type="submit">Submit message <span>→</span></button>
+        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        <p class="form-note">Student project demo: this form checks your entries but does not send, save or store messages. A form service or backend is needed for real submissions.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-content">
+    <a class="logo footer-logo" href="index.html">swaggo<span>lord</span><small> RESTAURANT</small></a>
+    <p>Good food. Good mood. © <span id="year"></span> Swaggolord Restaurant.</p>
+    <a href="#top" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
